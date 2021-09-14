@@ -44,8 +44,8 @@ kbd.add_layer :adjust, %i[
       )
 ]
 
-kbd.define_mod_key :LOWER, [ :KC_NO, :lower, 120, 150 ]
-kbd.define_mod_key :RAISE, [ :KC_NO, :raise, 120, 150 ]
-kbd.define_mod_key :ADJUST, [ :KC_NO, :adjust, 120, 150 ]
+kbd.define_mode_key :LOWER, [ :KC_NO, :lower, 120, 150 ]
+kbd.define_mode_key :RAISE, [ :KC_NO, :raise, 120, 150 ]
+kbd.define_mode_key :ADJUST, [ :KC_NO, :adjust, 120, 150 ]
 
 kbd.start!
