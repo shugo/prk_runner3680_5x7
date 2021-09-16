@@ -8,7 +8,7 @@
 
 ### License
 
-Copyright (c) 202q Shugo Maeda
+Copyright (c) 2021 Shugo Maeda
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
