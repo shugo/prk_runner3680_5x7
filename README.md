@@ -4,7 +4,7 @@
 
 ### Board
 
-- [Pico Micro](https://booth.pm/ja/items/3214808)
+- [Pico Micro (prototype version)](https://booth.pm/ja/items/3214808)
 
 ### License
 
