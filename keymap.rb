@@ -39,9 +39,9 @@ kbd.add_layer :adjust, %i[
     KC_NO    KC_NO    KC_NO    KC_NO    KC_NO    KC_NO    KC_NO        KC_NO    KC_NO    KC_NO    KC_NO    KC_NO    KC_NO    KC_NO
 ]
 
-kbd.define_mode_key :LOWER, [ :KC_NO, :lower, 0, 150 ]
-kbd.define_mode_key :RAISE, [ :KC_NO, :raise, 0, 150 ]
-kbd.define_mode_key :ADJUST, [ :KC_NO, :adjust, 0, 150 ]
+kbd.define_mode_key :LOWER, [ :KC_NO, :lower, 0, 0 ]
+kbd.define_mode_key :RAISE, [ :KC_NO, :raise, 0, 0 ]
+kbd.define_mode_key :ADJUST, [ :KC_NO, :adjust, 0, 0 ]
 
 #kbd.layer_changed_delay = 20
 
