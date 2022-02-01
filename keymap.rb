@@ -1,7 +1,3 @@
-while !$mutex
-  relinquish
-end
-
 kbd = Keyboard.new
 
 kbd.split = true
@@ -43,8 +39,10 @@ kbd.add_layer :adjust, %i[
     KC_NO    KC_NO    KC_NO    KC_NO    KC_NO    KC_NO    KC_NO        KC_NO    KC_NO    KC_NO    KC_NO    KC_NO    KC_NO    KC_NO
 ]
 
-kbd.define_mode_key :LOWER, [ :KC_NO, :lower, 120, 150 ]
-kbd.define_mode_key :RAISE, [ :KC_NO, :raise, 120, 150 ]
-kbd.define_mode_key :ADJUST, [ :KC_NO, :adjust, 120, 150 ]
+kbd.define_mode_key :LOWER, [ :KC_NO, :lower, 0, 150 ]
+kbd.define_mode_key :RAISE, [ :KC_NO, :raise, 0, 150 ]
+kbd.define_mode_key :ADJUST, [ :KC_NO, :adjust, 0, 150 ]
+
+#kbd.layer_changed_delay = 20
 
 kbd.start!
